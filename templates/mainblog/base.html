@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="{% static 'mainblog/style.css' %}" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dynamic title</title>
+  </head>
+  <body>
+    <header class="mainheader">
+      <h1><b>Blog Header</b></h1>
+      <p>Welcome to the blog of unknown</p>
+    </header>
+    {% block content %} {% endblock %}
+  </body>
+</html>

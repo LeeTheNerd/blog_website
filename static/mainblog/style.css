@@ -1,0 +1,25 @@
+/* CSS for Responsive Website */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.mainheader {
+  border: solid 2px black;
+  margin: 0;
+}
+
+.mainheader h1 {
+  text-align: center;
+  font-size: 60px;
+  margin: 0;
+}
+.mainheader p {
+  text-align: center;
+  font-size: 25px;
+}
+.container {
+  border: 1px solid black;
+}
